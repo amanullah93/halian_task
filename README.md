@@ -20,11 +20,11 @@ The `main.py` script calls the `execute_data_pipeline` function, which is respon
 9. The weather data is merged with the selected DataFrame.
 10. The final merged DataFrame is saved as another CSV file.
 11. Then, it calls the execute_data_aggregation function, which reads the open_weather_transformation.csv file and performs various data aggregation operations, such as 
-    o Calculate total sales amount per customer.
-    o Determine the average order quantity per product.
-    o Identify the top-selling products or customers.
-    o Analyze sales trends overtime(e.g.,monthlyorquarterlysales).
-    o Include weather data in the analysis(e.g.,average sales amount per weather condition).
+    i)Calculate total sales amount per customer.
+    ii) Determine the average order quantity per product.
+    iii) Identify the top-selling products or customers.
+    iv) Analyze sales trends overtime(e.g.,monthlyorquarterlysales).
+    v) Include weather data in the analysis(e.g.,average sales amount per weather condition).
 
 
 ### Outputs
@@ -32,6 +32,8 @@ The `main.py` script calls the `execute_data_pipeline` function, which is respon
 
 ### Usage Example
 
-```python main.py``` or
+```python main.py``` - This will provide visualization using matplotlib for aggregations
+
+### Using Docker:
 ```docker build -t aiq_pipeline_image:latest .```
 ```docker run aiq_pipeline_image```
