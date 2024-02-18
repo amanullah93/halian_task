@@ -31,8 +31,9 @@ The `main.py` script calls the `execute_data_pipeline` function, which is respon
 12. Finally, it calls the write_to_database function, which reads the open_weather_transformation.csv file and writes the data to a database.
 
 ### Usage Example
-
-```python main.py``` - This will provide visualization using matplotlib for aggregations
+    Install packages mentioned in requirements.txt file 
+    ```pip install -r requirements.txt``` , then run
+    ```python main.py``` - This will provide visualization using matplotlib for aggregations
 
 ### Using Docker:
 ```docker build -t aiq_pipeline_image:latest .```
