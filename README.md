@@ -28,5 +28,5 @@ The `main.py` script calls the `execute_data_pipeline` function, which is respon
 ### Usage Example
 
 ```python main.py``` or
-```1.docker build -t aiq_pipeline_image:latest .
-   2.docker run aiq_pipeline_image```
+```docker build -t aiq_pipeline_image:latest .```
+```docker run aiq_pipeline_image```
