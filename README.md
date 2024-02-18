@@ -28,7 +28,7 @@ The `main.py` script calls the `execute_data_pipeline` function, which is respon
 
 
 ### Outputs
-12. Finally, it calls the write_to_database function, which reads the open_weather_transformation.csv file and writes the data to a database.
+12. Finally, it calls the write_to_database function, which writes the data to SQLite database tables. Table schemas are highlighted in tables.sql file.
 
 ### Usage Example
     Install packages mentioned in requirements.txt file 
